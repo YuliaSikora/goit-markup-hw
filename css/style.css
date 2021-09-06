@@ -127,6 +127,10 @@ p {
 .header-address a:hover,
 .header-address a:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
+}
+.header-icon {
+  margin-right: 10px;
 }
 
 ul {
@@ -307,10 +311,13 @@ ul {
 }
 .links-items {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 32px;
+  margin-right: 32px;
   margin-bottom: 30px;
 }
+
 .link-worker {
   width: 44px;
   height: 44px;
@@ -443,6 +450,14 @@ ul {
 }
 .footer-socials {
   margin-left: 70px;
+}
+.footer-socials h2 {
+  padding-top: 12px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
 }
 .our-work {
   padding-top: 94px;
